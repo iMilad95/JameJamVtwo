@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.TextView;
 
 import butterknife.BindView;
 
@@ -14,7 +15,8 @@ public class CustomDialogClass extends Dialog implements
     @BindView(R.id.btn_yes) Button btnYes;
     @BindView(R.id.btn_no) Button btnNo;
     private Activity currentActivity;
-//Milad
+
+
     public CustomDialogClass(Activity currentActivity) {
         super(currentActivity);
         // TODO Auto-generated constructor stub
@@ -45,4 +47,6 @@ public class CustomDialogClass extends Dialog implements
         }
         dismiss();
     }
+
+
 }

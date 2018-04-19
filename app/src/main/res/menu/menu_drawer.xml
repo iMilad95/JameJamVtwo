@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/main_items">
+        <item
+            android:id="@+id/change_location"
+            android:title="تغییر موقعیت"
+            app:showAsAction="collapseActionView" />
+        <item
+            android:id="@+id/charge"
+            android:title="افزایش اعتبار"
+            app:showAsAction="collapseActionView" />
+        <item
+            android:id="@+id/services_list"
+            android:title="لیست خدمات جاری"
+            app:showAsAction="collapseActionView" />
+        <item
+            android:id="@+id/requ"
+            android:title="درخواست خدمات دهی"
+            app:showAsAction="collapseActionView" />
+
+        <item
+            android:id="@+id/add_service"
+            android:title="افزودن خدمت"
+            app:showAsAction="collapseActionView" />
+
+        <item
+            android:id="@+id/help_post"
+            android:title="راهنما"
+            app:showAsAction="collapseActionView" />
+    </group>
+    <group android:id="@+id/light_items">
+        <item
+            android:id="@+id/logout"
+            android:title="خروج"
+            app:showAsAction="collapseActionView" />
+    </group>
+</menu>

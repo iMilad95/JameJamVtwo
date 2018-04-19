@@ -14,7 +14,7 @@ public class CustomDialogClass extends Dialog implements
     @BindView(R.id.btn_yes) Button btnYes;
     @BindView(R.id.btn_no) Button btnNo;
     private Activity currentActivity;
-
+//Milad
     public CustomDialogClass(Activity currentActivity) {
         super(currentActivity);
         // TODO Auto-generated constructor stub
